@@ -1,0 +1,96 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="global_declaration" id="L7Nm/?c/gcxFT=;_+xHh" x="-358" y="-259">
+    <field name="NAME">a</field>
+    <value name="VALUE">
+      <block type="math_number" id="sIJ+ddJ|_G#~+ay(dyB4">
+        <field name="NUM">0</field>
+      </block>
+    </value>
+  </block>
+  <block type="component_event" id="O.)2Q$Y9W5n=sdOz-YRO" x="-510" y="-196">
+    <mutation component_type="Button" is_generic="false" instance_name="Button1" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Button1</field>
+    <statement name="DO">
+      <block type="lexical_variable_set" id="/MPtkNq.W+$c#R@_XIdA">
+        <field name="VAR">global a</field>
+        <value name="VALUE">
+          <block type="math_number" id="kj2MW~sn~u3=N:l0rx_5">
+            <field name="NUM">1</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="=)24|DCmvhT`R:XDe?Q5" x="30" y="-204">
+    <mutation component_type="Button" is_generic="false" instance_name="Button2" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Button2</field>
+    <statement name="DO">
+      <block type="lexical_variable_set" id="Lu,QpBuM$uZVt7G6r?,J">
+        <field name="VAR">global a</field>
+        <value name="VALUE">
+          <block type="math_number" id="~3YM|Pnnlg]Oy2ZFH+:(">
+            <field name="NUM">2</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="6)QlkbnS0.W{q3/*2VdK" x="-558" y="-63">
+    <mutation component_type="Button" is_generic="false" instance_name="Button3" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Button3</field>
+    <statement name="DO">
+      <block type="controls_if" id="1Z*KyL,5:1W!b!07590J">
+        <mutation elseif="1" else="1"></mutation>
+        <value name="IF0">
+          <block type="logic_compare" id="i*7S*p9:@hA4w4z_1RN?">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="lexical_variable_get" id="5uDI}sYh1I|O[a_L^XCE">
+                <field name="VAR">global a</field>
+              </block>
+            </value>
+            <value name="B">
+              <block type="math_number" id="Flb7]ZQ4ZtX*)S]I9K5/">
+                <field name="NUM">1</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="controls_openAnotherScreen" id="=lSnKy^*xSV:zwa#nzu!">
+            <value name="SCREEN">
+              <block type="text" id="tPBsiI0+si=1dzEL7[zr">
+                <field name="TEXT">creating_classroom_1</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+        <value name="IF1">
+          <block type="logic_compare" id="my)m/(0wBJf,ZRR@Dws7">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="lexical_variable_get" id="]MzyxlrSZ-Tk=QlH~$k9">
+                <field name="VAR">global a</field>
+              </block>
+            </value>
+            <value name="B">
+              <block type="math_number" id="LX({WG$=M,~3D)-8JWsW">
+                <field name="NUM">2</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO1">
+          <block type="controls_openAnotherScreen" id="Ainf{PA(S:/LZ|!k=Lk6">
+            <value name="SCREEN">
+              <block type="text" id="{Q=?%?-Y%]3qOhcr9s/d">
+                <field name="TEXT">Classroom_id</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+  <yacodeblocks ya-version="208" language-version="33"></yacodeblocks>
+</xml>

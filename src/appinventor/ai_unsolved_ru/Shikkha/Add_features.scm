@@ -1,0 +1,4 @@
+#|
+$JSON
+{"authURL":["ai2.appinventor.mit.edu"],"YaVersion":"208","Source":"Form","Properties":{"$Name":"Add_features","$Type":"Form","$Version":"27","AppName":"Shikkha_1","Title":"Add_features","TitleVisible":"False","Uuid":"0","$Components":[{"$Name":"VerticalArrangement1","$Type":"VerticalArrangement","$Version":"3","AlignHorizontal":"3","AlignVertical":"2","BackgroundColor":"&HFF79B7F5","Height":"-2","Width":"-2","Uuid":"-275005413","$Components":[{"$Name":"CheckBox1","$Type":"CheckBox","$Version":"2","FontBold":"True","FontItalic":"True","Text":"Circuit Simulation","Uuid":"143834028"},{"$Name":"CheckBox2","$Type":"CheckBox","$Version":"2","FontBold":"True","FontItalic":"True","Text":"Reaction Simulation","Uuid":"-1506597513"},{"$Name":"Button1","$Type":"Button","$Version":"6","Text":"Add","Uuid":"1820446356"}]}]}}
+|#

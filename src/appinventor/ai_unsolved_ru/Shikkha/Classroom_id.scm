@@ -1,0 +1,4 @@
+#|
+$JSON
+{"authURL":["ai2.appinventor.mit.edu"],"YaVersion":"208","Source":"Form","Properties":{"$Name":"Classroom_id","$Type":"Form","$Version":"27","AppName":"Shikkha_1","Title":"Classroom_id","TitleVisible":"False","Uuid":"0","$Components":[{"$Name":"VerticalArrangement1","$Type":"VerticalArrangement","$Version":"3","AlignHorizontal":"3","BackgroundColor":"&HFF79B7F5","Height":"-2","Width":"-2","Uuid":"-1534143541","$Components":[{"$Name":"VerticalArrangement2","$Type":"VerticalArrangement","$Version":"3","AlignHorizontal":"3","BackgroundColor":"&HFF79B7F5","Height":"-1050","Width":"-2","Uuid":"-1128992697","$Components":[{"$Name":"Image1","$Type":"Image","$Version":"4","Height":"-2","Width":"-1080","Picture":"Annotation2020-11-14202219.jpg","ScalePictureToFit":"True","Uuid":"178566860"}]},{"$Name":"Button1","$Type":"Button","$Version":"6","Height":"-1015","Width":"-2","Image":"Annotation2020-11-14202656.jpg","Uuid":"402373897"}]}]}}
+|#
